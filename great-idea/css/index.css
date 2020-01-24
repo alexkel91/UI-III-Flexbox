@@ -172,7 +172,7 @@ header{
 	border-bottom: 1px solid black;
 }
 nav {
-  display: inline-block;
+  
 	margin-right: 0px;
 	overflow: hidden;
 
@@ -186,20 +186,6 @@ nav {
 	width: auto;
 	height: auto;
 	}
-
-.nav-container{
-	display:inline-block;
-}	
-
-/* a {
-	text-decoration: none;
-	display:inline-block;
-	color:black;
-	margin:24px;
-	text-align: center;
-	margin-bottom:100px;
-} */
-
 .navbar{
 	overflow: hidden;
  background-color: #3498db;
@@ -234,20 +220,17 @@ a:hover {
   background: rgb(170, 241, 254);
 }
 .wrapper {
-  max-width: 900px;
-    margin: 0 auto;
-		background: white;
-		
-	display:flex;
-	flex-direction: column;
+max-width: 900px;
+margin: 0 auto;
+background: white;
+display:flex;
+flex-direction: column;
 }
 
-.title {
-	
+.title {	
 	text-align: center;
 	margin: 115px 0 50px 0;
 	vertical-align: top;
-	
 }
 .main{
 	display:flex;
@@ -258,9 +241,7 @@ header h1{
 	margin: 0 100px 0 100px;
 	vertical-align: top;
 }
-
 .code{
-	
 	margin:115px 0px 75px;
 	width:350px;
 	height: 350px;
@@ -272,13 +253,10 @@ header h1{
 	width:45%;
 	margin: 20px;
 }
-
-.about{
-	
+.about{	
 	width:45%;
 	margin: 20px;
 }
-
 .sec2{
 	display:flex;
 }
@@ -299,7 +277,6 @@ header h1{
 	border-top:1px solid black;
 	padding-top:25px;
 }
-
 .contact p{
 	margin-bottom:20px;
 }
