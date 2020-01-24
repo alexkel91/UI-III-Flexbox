@@ -130,6 +130,10 @@ h1, h2, h3, h4, h5 {
 		}
 
 /* Your code starts here! */
+
+* {
+    box-sizing: border-box;
+}
 .btn{
 	border: 1px solid #3498db;
 	background: none;
@@ -191,11 +195,13 @@ nav {
  background-color: #3498db;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 900px;
+  display:flex;
+ 
 }
 .navbar a {
-  float: left;
-  display: block;
+  /* float: left;
+  display: block; */
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -229,7 +235,7 @@ flex-direction: column;
 
 .title {	
 	text-align: center;
-	margin: 115px 0 50px 0;
+	margin: 200px 0 50px 0;
 	vertical-align: top;
 }
 .main{
@@ -284,3 +290,97 @@ footer {
 	text-align: center;
 	margin-top: 30px;
 }
+.services-wrapper{
+	display:flex;
+	flex-direction: column;
+}
+.services-header-img{
+	margin-top:50px;
+
+}
+
+.container{
+	width:900px;
+	margin: auto;
+}
+
+.services-top{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content: space-around;
+	margin:50px 0px 0 0px;
+}
+
+.hero{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 50px 0 50px 0;
+}
+
+.about-services{
+	margin:30px 0 0 30px;
+
+}
+.about-services h1 {
+	font-size: 24px;  
+}
+
+p {
+	line-height: 18px;
+  }
+
+  .services-main{
+	  display:flex;
+	  flex-wrap:wrap;
+	  justify-content:space-between;
+	  border-top: 1px solid black;
+	  border-bottom: 1px solid black;
+	  margin:30px;
+	  padding-bottom:40px;
+
+  }
+
+  .box{
+	  margin:40px 0 0 0;
+	  padding:20px;
+	  background:lightgrey;
+	  border: 1px solid black;
+	  width: 400px;
+  }
+
+  .service-facts{
+	  display:flex;
+	  flex-wrap:wrap;
+	  justify-content: space-between;
+	  margin:30px;
+  }
+  .facts-box{
+	  width: 400px;
+
+  }
+
+  .facts-box ul{
+		
+		list-style-type: square;
+		list-style-position: inside;
+		line-height: 30px;
+		margin-top: 20px;
+	  
+  }
+  button {
+	font-size: 16px;
+	padding: 5px 40px 5px 40px;
+	border: 1px solid black;
+  }
+  .box button {
+	margin-top: 20px;
+	font-size: 12px;
+	padding: 7px 20px 7px 20px;
+	border: 1px solid black;  
+	border-radius: 5px;
+  }
+  
+  
